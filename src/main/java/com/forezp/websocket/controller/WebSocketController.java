@@ -21,6 +21,7 @@ public class WebSocketController {
         return logger;
     }
 
+    //发送信息 使用 也可以 直接return
     @Autowired
     private SimpMessagingTemplate messagingTemplate;
 
